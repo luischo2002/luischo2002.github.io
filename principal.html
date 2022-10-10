@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./css/stylesprincipal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+        <h1>Tahur.com</h1>
+        <nav>
+            <ul>
+                <li> <a href="#" id="saldooo">Añadir Saldo</a> </li>
+            </ul>
+            <button id="btn_cerrar_sesion">
+                CERRAR SESION 
+            </button>
+            <p>SALDO:</p>
+            
+            <input type="text" id="inputsaldo" placeholder="10,000$">
+        </nav>
+    </header> 
+
+    <dialog id="volver">
+        <br>
+        <h2>Cerrar Sesion</h2>
+        <br>
+        <br>
+       ¿Deseas cerrar sesion?
+        <br>
+        <br>
+        <br>
+        <button id="cancelar">Cancelar</button>
+        <button id="volver_atras">Si</button>
+        <br>
+    </dialog>
+    <dialog id="saldo">
+        <br>
+        <h2>Añadir saldo</h2>
+        <br>
+        Cantidad
+        <br>
+        <input type="text">
+        <br>
+        <br>
+        <br>
+        Numero de Tarjeta
+        <br>
+        <input type="text">
+        <br>
+        <br>
+        <br>
+        Fecha de vencimiento
+        <br>
+        <input type="text">
+        <br>
+        <br>
+        <br>
+        NIP
+        <br>
+        <input type="password">
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="añadir_saldo">Añadir</button>
+        <br>
+        
+    </dialog>
+
+    <section id="apuestas">
+        <div class="card">
+            <img src="./img/partido1.png" alt="">
+            <h4>MLB: Playoffs</h4>
+            <h4>Apuesta mayor: 50,000$</h4>
+            <h5>-100 <b>+100</b> </h5>
+            <button class="btn btnPrimary">APUESTA</button>
+        
+        </div>
+        
+        <div class="card">
+            <img src="./img/partido2.png" alt="">
+            <h4>MLB: Playoffs</h4>
+            <h4>Apuesta mayor: 100,000$</h4>
+            <h5>+160 <b>-30</b> </h5>
+            <button class="btn btnPrimary">APUESTA</button>
+        
+        </div>
+        
+        
+        <div class="card">
+            <img src="./img/partido3.png" alt="">
+            <h4>NFL: Regular</h4>
+            <h4>Apuesta mayor: 10,000$</h4>
+            <h5>+50 <b>-10</b> </h5>
+            <button class="btn btnPrimary">APUESTA</button>
+        
+        </div>
+        
+        <div class="card">
+            <img src="./img/partido4.png" alt="">
+            <h4>NFL: Regular</h4>
+            <h4 id="envivo">En Vivo</h4>
+            <br>
+            <h5>+100<b>   -200</b> </h5>
+            <button class="btn btnPrimary">APUESTA</button>
+        
+        </div>
+        
+        
+            </section>
+
+</body>
+<script src="./js/claseprincipal.js"></script>
+</html>

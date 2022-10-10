@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #90a4ae;
+    background-image: url(../img/fondofinal.jpg);
+    background-size: 100%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    color: #b0bec5;
+    font-family: 'Sonsie One', cursive;
+
+}
+header h1{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #1c1c36;
+    position: fixed;
+    z-index: 10;
+}
+header nav{
+    width: 60%;
+    float: right;
+    margin-top: 24px;
+ 
+}
+header nav ul li{
+    list-style: none;
+    float: right;
+    width: 20%;
+    text-align: center;
+    margin-top: 8px;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: #b0bec5;
+    font-size: 1.3rem;
+    }
+
+
+button{
+    cursor: pointer;
+    font-weight: bolder;
+}
+    #btn_registrarse {
+        background-color: transparent;
+        font-weight: bolder;
+        border: 2px solid #263238;
+        border-radius: .5rem;
+        transition: all 1s ease;
+        width: 100px;
+        height: 40px;
+        color: #90a4ae;
+        font-size: 1rem;
+        border-radius: 10px;
+        box-shadow: .2rem .2rem 1rem #90a4ae;
+
+    }
+    #btn_registrarse:hover {
+        box-shadow: .3rem .3rem 1rem #b0bec5,
+        -.2rem -.2rem 1rem #90a4ae;  
+    }
+    #btn_registrarse:active {
+        box-shadow: inset .5rem .5rem 1rem #b0bec5,
+        inset -2rem -.2rem 1rem #90a4ae;  
+    }
+
+    
+    #btn_registrarse{
+
+        float: right;
+        width: 20%;
+        margin-right: 30%;
+        margin-top: -30px;
+        margin-left: 300px;
+    }
+    #cerrar_registro{
+        background-color: #b0bec5;
+        width: 150px;
+        height: 55px;
+        padding: 5px;
+        text-align: center;
+        color: #263238;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: 0.5 ease-in all 
+    }
+    #abrir_sesion{
+        background-color: #b0bec5;
+        width: 180px;
+        height: 55px;
+        padding: 5px;
+        text-align: center;
+        color: #263238;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: 0.5 ease-in all 
+        
+    }
+    
+
+  dialog {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 40%;
+    text-align: center;
+    background-color: #1c1c36;
+    border-radius: 20px;
+    color: #b0bec5;
+
+  }
+  input{
+    background: #263238;
+    color: #b0bec5;
+    border-radius: 10px;
+    height: 20px;
+  }
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, .55);
+  }
+  dialog{
+    width: 300px;
+    height: 470px;
+  }
